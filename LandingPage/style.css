@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mt-3.col input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    box-shadow: 0;
+    padding: 0.5rem 1rem;
+    color: black;
+    font-weight: 700;
+    width: 20rem;
+    text-decoration: none;
+    height: 2rem;
+}
+
+.button:hover {
+    color: black;
+    font-weight: 700;
+    transition: 0.3s;
+    background-color: #ff2f7b;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    .img-1 {
+        margin-top: 3rem;
+    }
+
+    .container {
+        text-align: center;
+    }
+}
+
+
+
+
